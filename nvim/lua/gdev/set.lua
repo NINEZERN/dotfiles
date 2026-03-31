@@ -1,5 +1,5 @@
 -- Colorscheme
-vim.cmd("colorscheme gruvbox")
+vim.cmd("colorscheme cosec-twilight")
 -- Basic editor
 vim.opt.number = true                  -- show line numbers
 vim.opt.relativenumber = true          -- relative line numbers
@@ -35,7 +35,6 @@ vim.opt.showmode = false                -- we use statusline
 
 -- Clipboard
 vim.opt.clipboard = "unnamedplus"       -- system clipboard
-
 -- Splits
 vim.opt.splitright = true               -- new vertical splits to the right
 vim.opt.splitbelow = true               -- new horizontal splits below
@@ -62,11 +61,10 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
 -- Hide the banner at the top (the help text)
-vim.g.netrw_banner = 0
+vim.g.netrw_banner = 1
 
 -- Set the default view to "Tree view" (mode 3)
-vim.g.netrw_liststyle = 3
+vim.g.netrw_liststyle = 1
 
 -- Set the width of the Lexplore (sidebar) to 25%
 vim.g.netrw_winsize = 25
-
